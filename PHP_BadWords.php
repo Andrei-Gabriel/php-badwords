@@ -12,6 +12,6 @@
 </head>
 <body>
     <h2>Explicit</h2>
-    <p><?php echo$pText ?></p>
+    <p><?php echo $pText ?></p>
 </body>
 </html>
