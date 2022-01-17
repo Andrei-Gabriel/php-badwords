@@ -13,6 +13,8 @@
     <title>PHP Bad Words</title>
 </head>
 <body>
+    <h1>Aggiungere al link: ?censoredWord=ipsum</h1>
+
     <h2>Explicit</h2>
     <h3>Lunghezza: <?php echo strlen($explicit) ?></h3>
     <p><?php echo $explicit; ?></p>
