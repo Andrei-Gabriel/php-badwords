@@ -1,5 +1,7 @@
 <?php 
-    $ptext = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus est iusto minima molestias non error quisquam, molestiae aliquam enim, laudantium accusantium at nostrum officia? Architecto cupiditate perspiciatis repellat consequuntur nobis!";
+    $explicit = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus est iusto minima molestias non error quisquam, molestiae aliquam enim, laudantium accusantium at nostrum officia? Architecto cupiditate perspiciatis repellat consequuntur nobis!";
+    
+    $censored = str_replace($_GET["censoredWord"], "***", $explicit);
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +14,11 @@
 </head>
 <body>
     <h2>Explicit</h2>
-    <p><?php echo $pText ?></p>
+    <h3>Lunghezza: <?php echo strlen($explicit) ?></h3>
+    <p><?php echo $explicit; ?></p>
+
+    <h2>Censored</h2>
+    <h3>Lunghezza: <?php echo strlen($censored) ?></h3>
+    <p><?php echo $censored; ?></p>
 </body>
 </html>
