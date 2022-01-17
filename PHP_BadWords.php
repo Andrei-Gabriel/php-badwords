@@ -1,5 +1,5 @@
 <?php 
-    $explicit = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus est iusto minima molestias non error quisquam, molestiae aliquam enim, laudantium accusantium at nostrum officia? Architecto cupiditate perspiciatis repellat consequuntur nobis!";
+    $explicit = "Lorem ipsum dolor sit amet ipsum adipisicing elit. Ipsum est iusto minima molestias non error quisquam, molestiae ipsum enim, ipsum accusantium at nostrum officia? Architecto cupiditate perspiciatis repellat consequuntur nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum est iusto minima molestias non error quisquam, molestiae ipsum enim, laudantium accusantium at nostrum officia? ipsum cupiditate perspiciatis ipsum consequuntur nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. ipusm est iusto minima molestias non error quisquam, molestiae ipsum enim, laudantium accusantium at nostrum officia? Architecto cupiditate perspiciatis repellat consequuntur nobis!";
     
     $censored = str_replace($_GET["censoredWord"], "***", $explicit);
 ?>
